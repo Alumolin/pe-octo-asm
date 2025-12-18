@@ -8,7 +8,7 @@ viva! Добро пожаловать на этот сайт!
 ## 🧩 PE-разбор
 {% assign pe_posts = site.categories.pe %}
 {% for post in pe_posts %}
-- <a href="{{ post.url }}">{{ post.title }}</a>
+- <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
 
 ---
@@ -16,5 +16,5 @@ viva! Добро пожаловать на этот сайт!
 ## 🛠 ASM Build
 {% assign asm_posts = site.categories.asm-build %}
 {% for post in asm_posts %}
-- <a href="{{ post.url }}">{{ post.title }}</a>
+- <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
