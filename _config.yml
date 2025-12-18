@@ -1,3 +1,7 @@
 title: Страничка PE_Runner
-description: Cтатьи и заметки по Portable Executable, assembly language
+description: Статьи и заметки по Portable Executable, assembly language
+
 theme: minima
+
+url: https://alumolin.github.io
+baseurl: /pe-octo-asm
