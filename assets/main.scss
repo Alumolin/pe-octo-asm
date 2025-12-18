@@ -10,7 +10,18 @@ body {
 }
 
 a {
-  color: #58a6ff;
+  color: #79c0ff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a5d6ff;
+}
+
+a:hover,
+a:focus {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .site-header,
@@ -28,4 +39,16 @@ pre,
 code {
   background-color: #161b22;
   color: #e6edf3;
+}
+
+li a {
+  color: #79c0ff;
+}
+
+li a:hover {
+  color: #ffffff;
+}
+
+code a {
+  color: #ffa657;
 }
